@@ -1,0 +1,182 @@
+body {
+    font-family: 'Montserrat';
+}
+
+
+
+.navbar {
+    background-color: #171717;
+    border-bottom: 1px solid #707070;
+}
+
+.nav-item {
+    margin-right: 24px;
+    font-weight: 200;
+}
+
+.nav-item.active a {
+    color: #f9b234 !important;
+    font-weight: 600;
+}
+
+.nav-link span {
+    color: #f9b234;
+    font-weight: 600;
+}
+
+.carousel {
+    height: 450px;
+    background-color: #171717;
+    color: white;
+}
+
+.carousel h1 {
+    font-family: 'lora';
+}
+
+.carousel p {
+    font-weight: 200;
+}
+
+.features h3,
+.designer h3,
+.similiar-product h3,
+.cart-header h3,
+.checkout-modal-success h3,
+.category h3 {
+    font-family: 'Lora';
+    color: #1b6290;
+    font-weight: bold;
+}
+
+.features p,
+.designer p,
+footer p,
+.similiar-product p,
+.cart-header p,
+.checkout-modal-success p,
+.category p {
+    font-weight: 200;
+    color: #b7b7b7;
+}
+
+.figure h5 {
+    color: #171717;
+}
+
+
+.figure-img {
+    position: relative;
+    height: 200px;
+}
+
+.figure-img a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.figure-img:hover a {
+    opacity: 1;
+}
+
+/* page 2 */
+
+.breadcrumb {
+    margin-top: 50px;
+}
+
+.product-thumbnail-container {
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 5px;
+    margin: auto;
+    transform: translateY(-40px);
+}
+
+.product-thumbnail-container a {
+    text-decoration: none;
+}
+
+.product-thumbnail-container a img {
+    width: 70px;
+    height: 70px;
+}
+
+.btn-product {
+    margin: 50px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.btn-product .btn {
+    display: block;
+    margin: 10px 0;
+}
+
+.designed-by h3 {
+    margin-bottom: 15px;
+}
+
+.designed-by h5 {
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.designed-by p {
+    font-size: 14px;
+}
+
+/* product description */
+
+.product-description {
+    background-color: #F6F7F8;
+    height: 350px;
+    margin-top: 100px;
+}
+
+.product-description .tab-content {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-top: 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.product-description .tab-content p {
+    font-size: 16px;
+    font-weight: 200;
+    color: #868686;
+    line-height: 28px;
+}
+
+.product-review {
+    height: 320px;
+    overflow-y: scroll;
+}
+
+.product-review h5 {
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.product-review p {
+    font-size: 14px !important;
+}
+
+.similiar-product {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.checkout-detail {
+    background-color: #F6F7F8;
+    border: 1px solid #eaeaea;
+    color: #171717;
+}
